@@ -1,0 +1,52 @@
+/* sweetalert.css - Black/Dark Theme */
+
+.custom-swal-popup {
+  background-color: #1e1e1e !important;
+  /* Black background */
+  color: #f1f1f1 !important;
+  /* Light text */
+  border-radius: 8px;
+  padding: 1.5rem;
+}
+
+.custom-swal-title {
+  color: #ffffff !important;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.custom-swal-content {
+  color: #d1d1d1 !important;
+  font-size: 1rem;
+}
+
+.custom-swal-confirm-btn,
+.custom-swal-cancel-btn {
+  padding: 8px 20px;
+  border: none;
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: 14px;
+  transition: all 0.3s ease;
+}
+
+.custom-swal-confirm-btn {
+  background-color: #4caf50 !important;
+  /* Green */
+  color: #fff !important;
+}
+
+.custom-swal-confirm-btn:hover {
+  background-color: #43a047 !important;
+}
+
+.custom-swal-cancel-btn {
+  background-color: #e53935 !important;
+  /* Red */
+  color: #fff !important;
+  margin-left: 10px;
+}
+
+.custom-swal-cancel-btn:hover {
+  background-color: #d32f2f !important;
+}
