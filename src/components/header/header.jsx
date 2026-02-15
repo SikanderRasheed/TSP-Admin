@@ -37,7 +37,7 @@ const Header = () => {
                     <div>
                         <button className='log-btn'  onClick={handleSignout}>Logout</button>
                     </div>
-                    <div className='d-flex'>
+                    <div className='user_info'>
                         <div className='user-img'>
                             <img src={user?.profile_img  || "/public/img/profile.webp"}alt="" />
                         </div>

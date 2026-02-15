@@ -59,7 +59,7 @@ const CertificateForm = ({ initialValues, loading, onSubmit, form }) => {
       form={activeForm}
       layout="vertical"
       onFinish={onSubmit}
-      className="mt-3"
+      className=""
     >
       <div className="grid grid-cols-12 gap-5">
         <div className="col-span-6">
